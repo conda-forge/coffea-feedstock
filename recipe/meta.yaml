@@ -11,7 +11,7 @@ source:
   sha256: a0c31d4900815da3c6b7e50a654e606df2638d052fabb3fddfddc17c33177ecb
 
 build:
-  noarch: python
+  noarch: python >=3.6
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -34,7 +34,7 @@ requirements:
     - packaging
     - pandas
     - pyarrow >=1.0.0
-    - python
+    - python >=3.6
     - scipy >=1.1.0
     - tqdm >=4.27.0
     - uproot >=3.11.0,<4
