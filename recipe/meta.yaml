@@ -22,19 +22,19 @@ requirements:
     - pytest-runner
     - python >=3.6
   run:
-    - awkward>=1.0.1
-    - uproot>=4.0.1
-    - uproot3-methods>=0.10.0
-    - uproot3>=3.14.1
-    - pyarrow>=1.0.0
-    - matplotlib>=3
-    - numba>=0.50.0
-    - numpy>=1.16.0
-    - scipy>=1.1.0
-    - tqdm>=4.27.0
+    - awkward >=1.0.1
+    - uproot >=4.0.1
+    - uproot3-methods >=0.10.0
+    - uproot3 >=3.14.1
+    - pyarrow >=1.0.0
+    - matplotlib >=3
+    - numba >=0.50.0
+    - numpy >=1.16.0
+    - scipy >=1.1.0
+    - tqdm >=4.27.0
     - lz4
-    - cloudpickle>=1.2.3
-    - mplhep>=0.1.18
+    - cloudpickle >=1.2.3
+    - mplhep >=0.1.18
     - packaging
     - ipywidgets
     - pandas
