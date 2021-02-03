@@ -22,29 +22,30 @@ requirements:
     - pytest-runner
     - python >=3.6
   run:
-    - awkward >=0.12.20,<1
-    - awkward1 >=0.4.3,<1
-    - cloudpickle >=1.2.3
-    - ipywidgets
+    - awkward>=1.0.1
+    - uproot>=4.0.1
+    - uproot3-methods>=0.10.0
+    - uproot3>=3.14.1
+    - pyarrow>=1.0.0
+    - matplotlib>=3
+    - numba>=0.50.0
+    - numpy>=1.16.0
+    - scipy>=1.1.0
+    - tqdm>=4.27.0
     - lz4
-    - matplotlib-base >=3
-    - mplhep >=0.1.18
-    - numba >=0.50.0
-    - numpy >=1.16.0
+    - cloudpickle>=1.2.3
+    - mplhep>=0.1.18
     - packaging
+    - ipywidgets
     - pandas
-    - pyarrow >=1.0.0
     - python >=3.6
     - scipy >=1.1.0
     - tqdm >=4.27.0
-    - uproot >=3.11.0,<4
-    - uproot-methods >=0.7.3,<=0.9
-    - uproot4 >=0.0.17,<1
 
 test:
   imports:
     - coffea
-    - coffea.analysis_objects
+    - coffea.processor
   commands:
     - pip check
   requires:
