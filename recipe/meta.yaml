@@ -1,5 +1,5 @@
 {% set name = "coffea" %}
-{% set version = "0.7.4" %}
+{% set version = "0.7.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/coffea-{{ version }}.tar.gz
-  sha256: b61c8e1b8416d8d9cae879eaca89e49d65eacaa1aa98b7cc76eb380b848836d8
+  sha256: bf33f42776a2ed8407a3399d9ffaafa93f4d09a786aa6b7c912e7bce2cd15330
 
 build:
   noarch: python
