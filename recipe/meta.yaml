@@ -36,7 +36,7 @@ requirements:
     - cloudpickle >=1.2.3
     - mplhep >=0.1.18
     - packaging
-    - ipywidgets
+    - fsspec
     - pandas
     - python >=3.6
     - scipy >=1.1.0
