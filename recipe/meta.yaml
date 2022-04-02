@@ -44,7 +44,7 @@ requirements:
     - tqdm >=4.27.0
     - hist >=2.0
     - typing-extensions
-    - toml >= 0.10.2
+    - toml >=0.10.2
 
 test:
   imports:
