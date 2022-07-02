@@ -11,16 +11,13 @@ source:
   sha256: ff2335531e2087d33f2622c5841b9d973b6b50759fe5c72dd1a33d896b6d4b99
 
 build:
-  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - flake8
     - pip
-    - pytest-runner
-    - python
+    - python >= 3.6
   run:
     - awkward >=1.5.1,<2
     - cachetools
@@ -37,7 +34,7 @@ requirements:
     - packaging
     - pandas
     - pyarrow >=1.0.0
-    - python
+    - python >= 3.6
     - scipy >=1.1.0
     - toml >=0.10.2
     - tqdm >=4.27.0
