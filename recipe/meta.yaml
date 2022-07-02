@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - awkward >=1.5.1,<2
     - cachetools
@@ -35,7 +35,7 @@ requirements:
     - packaging
     - pandas
     - pyarrow >=1.0.0
-    - python
+    - python >=3.6
     - scipy >=1.1.0
     - toml >=0.10.2
     - tqdm >=4.27.0
