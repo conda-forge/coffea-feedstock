@@ -11,40 +11,37 @@ source:
   sha256: ff2335531e2087d33f2622c5841b9d973b6b50759fe5c72dd1a33d896b6d4b99
 
 build:
-  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - flake8
     - pip
-    - pytest-runner
     - python >=3.6
   run:
     - awkward >=1.5.1,<2
-    - uproot >=4.0.6,<5,!=4.2.4,!=4.3.0,!=4.3.1
-    - uproot3-methods >=0.10.0
-    - uproot3 >=3.14.1
+    - cachetools
+    - cloudpickle >=1.2.3
     - correctionlib >=2.0.0
-    - pyarrow >=1.0.0
+    - dataclasses  # [py<37]
+    - fsspec
+    - hist >=2
+    - lz4
     - matplotlib-base >=3
+    - mplhep >=0.1.18
     - numba >=0.50.0
     - numpy >=1.16.0,<1.22
-    - scipy >=1.1.0
-    - tqdm >=4.27.0
-    - lz4
-    - cloudpickle >=1.2.3
-    - mplhep >=0.1.18
     - packaging
-    - fsspec
     - pandas
+    - pyarrow >=1.0.0
     - python >=3.6
     - scipy >=1.1.0
-    - tqdm >=4.27.0
-    - hist >=2.0
-    - typing-extensions  # [py<38]
     - toml >=0.10.2
+    - tqdm >=4.27.0
+    - typing-extensions  # [py<38]
+    - uproot >=4.1.6,<5,!=4.2.4,!=4.3.0,!=4.3.1
+    - uproot3 >=3.14.1
+    - uproot3-methods >=0.10.0
 
 test:
   imports:
