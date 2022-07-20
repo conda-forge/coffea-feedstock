@@ -11,13 +11,14 @@ source:
   sha256: ff2335531e2087d33f2622c5841b9d973b6b50759fe5c72dd1a33d896b6d4b99
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.7
   run:
     - awkward >=1.5.1,<2
     - cachetools
