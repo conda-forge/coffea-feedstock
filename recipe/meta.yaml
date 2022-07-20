@@ -24,7 +24,6 @@ requirements:
     - cachetools
     - cloudpickle >=1.2.3
     - correctionlib >=2.0.0
-    - dataclasses  # [py<37]
     - fsspec
     - hist >=2
     - lz4
@@ -35,11 +34,11 @@ requirements:
     - packaging
     - pandas
     - pyarrow >=1.0.0
-    - python
+    - python >=3.7
     - scipy >=1.1.0
     - toml >=0.10.2
     - tqdm >=4.27.0
-    - typing-extensions  # [py<38]
+    - typing-extensions
     - uproot >=4.1.6,<5,!=4.2.4,!=4.3.0,!=4.3.1
     - uproot3 >=3.14.1
     - uproot3-methods >=0.10.0
@@ -66,3 +65,4 @@ extra:
     - areinsvo
     - mcremone
     - chrisburr
+    - henryiii
