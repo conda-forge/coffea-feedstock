@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -29,8 +29,8 @@ requirements:
     - lz4
     - matplotlib-base >=3
     - mplhep >=0.1.18
-    - numba >=0.50.0
-    - numpy >=1.16.0,<1.22
+    - numba
+    - numpy >=1.18
     - packaging
     - pandas
     - pyarrow >=1.0.0
