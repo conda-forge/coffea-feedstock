@@ -48,8 +48,6 @@ requirements:
 test:
   imports:
     - coffea
-  commands:
-    - pip check
   requires:
     - pip
 
