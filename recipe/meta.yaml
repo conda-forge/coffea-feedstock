@@ -26,7 +26,7 @@ requirements:
     - awkward >=2.5.2
     - uproot >=5.2.1
     - dask-core >=2023.4.0
-    - dask-awkward >=2024.1.1
+    - dask-awkward >=2024.1.2
     - dask-histogram >=2023.10.0
     - correctionlib >=2.3.3
     - pyarrow >=6.0.0
