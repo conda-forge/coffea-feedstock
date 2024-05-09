@@ -1,5 +1,5 @@
 {% set name = "coffea" %}
-{% set version = "2024.4.1" %}
+{% set version = "2024.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/coffea-{{ version }}.tar.gz
-  sha256: 9007db5def2e5cdcec7de9debeb32a165bd856e9fadb5b28dc7f15895024cbe1
+  sha256: 17692f6398b664879cfdae2c45817e9da284bb2ffdd4fd41191548a5c3350601
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
   run:
     - python >=3.8
     - awkward >=2.6.3
-    - uproot >=5.3.0,!=5.3.3
+    - uproot >=5.3.0,!=5.3.3,!=5.3.4,!=5.3.5
     - dask-core >=2024.3.0
     - dask-awkward >=2024.3.0
     - dask-histogram >=2024.3.0
