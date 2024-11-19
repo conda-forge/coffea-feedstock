@@ -11,7 +11,7 @@ Summary: Tools for doing Collider HEP style analysis with columnar operations
 
 Development: https://github.com/CoffeaTeam/coffea
 
-Documentation: https://coffeateam.github.io/coffea/
+Documentation: https://coffea-hep.readthedocs.io/
 
 Current build status
 ====================
