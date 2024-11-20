@@ -9,6 +9,10 @@ Package license: BSD-3-Clause
 
 Summary: Tools for doing Collider HEP style analysis with columnar operations
 
+Development: https://github.com/CoffeaTeam/coffea
+
+Documentation: https://coffea-hep.readthedocs.io/
+
 Current build status
 ====================
 
@@ -145,6 +149,7 @@ Feedstock Maintainers
 
 * [@areinsvo](https://github.com/areinsvo/)
 * [@chrisburr](https://github.com/chrisburr/)
+* [@conda-forge/scikit-hep](https://github.com/orgs/conda-forge/teams/scikit-hep/)
 * [@henryiii](https://github.com/henryiii/)
 * [@lgray](https://github.com/lgray/)
 * [@mcremone](https://github.com/mcremone/)
