@@ -1,5 +1,5 @@
 {% set name = "coffea" %}
-{% set version = "2024.11.0" %}
+{% set version = "2025.1.0" %}
 {% set python_min = "3.9" %}
 # v2024.10.0 supports Python 3.8, but the required dependencies are missing
 # Python 3.8 support on conda-forge.
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/coffea-{{ version }}.tar.gz
-  sha256: 505a72c70184c0e24e4186c19933c67384c4eec6edab14a4e9fa46c535f3b640
+  sha256: 18bf8656ce451e4b355e6d665413652be97599aaca40f47d9f14cf7ac7177a2f
 
 build:
   noarch: python
