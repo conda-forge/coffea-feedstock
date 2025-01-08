@@ -1,8 +1,6 @@
 {% set name = "coffea" %}
 {% set version = "2025.1.0" %}
 {% set python_min = "3.9" %}
-# v2024.10.0 supports Python 3.8, but the required dependencies are missing
-# Python 3.8 support on conda-forge.
 
 
 package:
