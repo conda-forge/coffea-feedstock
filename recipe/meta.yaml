@@ -1,5 +1,5 @@
 {% set name = "coffea" %}
-{% set version = "2025.1.1" %}
+{% set version = "2025.3.0" %}
 {% set python_min = "3.9" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/coffea-{{ version }}.tar.gz
-  sha256: 0744b1c951973951bacb48708e37fe481697f696aa1b89c28db4a9cfc2ce26d6
+  sha256: 6a14b60373c8795ff2ba5d6076ac78c4944ac8819e1985613b9d6a79d5402a76
 
 build:
   noarch: python
