@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python 3.9.*
+    - python ${{ python_min }}.*
     - hatchling >=1.17.1
     - hatch-vcs
     - pip
