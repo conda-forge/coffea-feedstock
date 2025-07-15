@@ -151,6 +151,7 @@ Feedstock Maintainers
 * [@chrisburr](https://github.com/chrisburr/)
 * [@conda-forge/scikit-hep](https://github.com/orgs/conda-forge/teams/scikit-hep/)
 * [@henryiii](https://github.com/henryiii/)
+* [@ikrommyd](https://github.com/ikrommyd/)
 * [@lgray](https://github.com/lgray/)
 * [@mcremone](https://github.com/mcremone/)
 * [@nsmith-](https://github.com/nsmith-/)
