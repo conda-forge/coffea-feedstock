@@ -34,9 +34,6 @@ requirements:
     - vector >=1.4.1,!=1.6.0
     - correctionlib >=2.6.0
     - pyarrow >=6.0.0,<21.0.0
-    - if: not win
-      then:
-        - fsspec-xrootd >=0.2.3
     - matplotlib-base >=3
     - numba >=0.58.1
     - numpy >=1.22
