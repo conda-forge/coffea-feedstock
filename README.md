@@ -3,13 +3,13 @@ About coffea-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coffea-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/CoffeaTeam/coffea
+Home: https://github.com/scikit-hep/coffea
 
 Package license: BSD-3-Clause
 
 Summary: Tools for doing Collider HEP style analysis with columnar operations
 
-Development: https://github.com/CoffeaTeam/coffea
+Development: https://github.com/scikit-hep/coffea
 
 Documentation: https://coffea-hep.readthedocs.io/
 
