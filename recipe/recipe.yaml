@@ -61,8 +61,8 @@ about:
   summary: Tools for doing Collider HEP style analysis with columnar operations
   license: BSD-3-Clause
   license_file: LICENSE
-  homepage: https://github.com/CoffeaTeam/coffea
-  repository: https://github.com/CoffeaTeam/coffea
+  homepage: https://github.com/scikit-hep/coffea
+  repository: https://github.com/scikit-hep/coffea
   documentation: https://coffea-hep.readthedocs.io/
 
 extra:
