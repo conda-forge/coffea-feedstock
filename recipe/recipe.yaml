@@ -2,8 +2,7 @@ schema_version: 1
 
 context:
   name: coffea
-  version: "2025.7.3"
-  python_min: '3.9'
+  version: "2025.9.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/coffea-${{ version }}.tar.gz
-  sha256: f0cb93717c870001035eb4cd35efea1ca115e567e72dff10a1b599072c32f146
+  sha256: 6387ff59d5a08a3e7a06a7c46a3ec4517dbc5dc276266023329c2b4f8f905675
 
 build:
   number: 0
@@ -26,14 +25,14 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - awkward >=2.8.2
+    - awkward >=2.8.9
     - uproot >=5.6.0
     - dask-core >=2024.3.0
-    - dask-awkward >=2025.5.0
+    - dask-awkward >=2025.9.0
     - dask-histogram >=2025.2.0
     - vector >=1.4.1,!=1.6.0
     - correctionlib >=2.6.0
-    - pyarrow >=6.0.0,<21.0.0
+    - pyarrow >=6.0.0
     - matplotlib-base >=3
     - numba >=0.58.1
     - numpy >=1.22
