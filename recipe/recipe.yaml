@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: coffea
-  version: "2025.9.0"
+  version: "2025.10.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/coffea-${{ version }}.tar.gz
-  sha256: 6387ff59d5a08a3e7a06a7c46a3ec4517dbc5dc276266023329c2b4f8f905675
+  sha256: 030b8ffc4c0519bd06c012dc0de94aadc99c9fc4cc3a84e54c3608e135feba0e
 
 build:
   number: 0
@@ -48,6 +48,7 @@ requirements:
     - cachetools
     - requests
     - aiohttp
+    - fsspec
 
 tests:
   - python:
