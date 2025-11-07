@@ -49,6 +49,8 @@ requirements:
     - requests
     - aiohttp
     - fsspec
+    - rich
+    - ipywidgets
 
 tests:
   - python:
