@@ -54,7 +54,7 @@ requirements:
     - fsspec
     - rich
     - ipywidgets
-    - numcodecs >= 0.13.1
+    - numcodecs >=0.13.1
     - zict >=3.0.0
 
 tests:
