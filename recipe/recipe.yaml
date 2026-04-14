@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: coffea
-  version: "2025.12.0"
+  version: "2026.4.0"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/coffea-${{ version }}.tar.gz
-  sha256: ff13edaa26bbf0b51c9c52535a40eda8379696632c96e500bf938f6b02e2793e
+  sha256: ce8b3e27cbe0db29cc3fffe92504d7798583c025ce5f356c08a1ee990eb5f70f
 
 build:
   number: 0
@@ -26,8 +26,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - awkward >=2.8.9
-    - uproot >=5.6.0
+    - awkward >=2.8.11
+    - uproot >=5.7.0
     - dask-core >=2024.3.0
     - dask-awkward >=2025.9.0
     - dask-histogram >=2025.2.0
@@ -54,6 +54,8 @@ requirements:
     - fsspec
     - rich
     - ipywidgets
+    - numcodecs >=0.13.1
+    - zict >=3.0.0
 
 tests:
   - python:
