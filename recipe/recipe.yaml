@@ -14,7 +14,7 @@ source:
   sha256: 2d4850edf1447e7d4e5c29d181b7e241ff7a56ddee235e4b059a7516c69c5a6a
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -40,6 +40,7 @@ requirements:
     - lz4
     - cloudpickle >=1.2.3
     - toml >=0.10.2
+    - pyyaml
     - mplhep >=0.1.18
     - packaging
     - pandas
