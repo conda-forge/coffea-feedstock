@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: coffea
-  version: "2026.7.0"
+  version: "2026.9.0"
   python_min: "3.10"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/coffea-${{ version }}.tar.gz
-  sha256: 2d4850edf1447e7d4e5c29d181b7e241ff7a56ddee235e4b059a7516c69c5a6a
+  sha256: 7dfc1b54d9d1533c8a5bd8a5786d13272ea1a170b0817061d4478f721aedae04
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
